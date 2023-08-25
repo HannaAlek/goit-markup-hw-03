@@ -1,7 +1,41 @@
+h1,
+h2,
+h3,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img{
+    display: block;
+}
+
+.container{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    margin-left: auto;
+    margin-right:auto;
+}
+
 .page-body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: white;
+}
+
+.page-header-container{
+    display: flex;
+}
+
+.page-nav{
+    display: flex;
 }
 
 .logo-link{
