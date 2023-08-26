@@ -233,12 +233,15 @@ img{
     margin-bottom: 72px;
 }
 
+.portfolio-items{
+    border: 1px solid #E7E9FC;
+}
+
 .sectoin-potfolio-list{
     list-style-type: none;
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    
 }
 
 .sectoin-potfolio-title-name{
