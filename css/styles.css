@@ -117,6 +117,7 @@ img{
     letter-spacing: 0.02em;
     color: white;
     margin-bottom: 48px;
+    text-align: center;
 }
 
 .button{
@@ -130,6 +131,8 @@ img{
     border: none;
     border-radius: 4px;
     padding: 16px 32px;
+    display: block;
+    margin: 0 auto;
 }
 
 .button:hover,
@@ -137,12 +140,15 @@ img{
     background-color:#404BBF;
 }
 
+.section-two-title{
+    display: none;
+}
+
 .section-two-list{
     list-style-type: none;
     display: flex;
     margin: 96px 0;
     gap:24px;
- 
 }
 
 .section-two-list-item{
@@ -169,6 +175,7 @@ img{
 
 .section-three{
     background-color: #F4F4FD;
+    padding: 120px 15px;
 }
 
 .section-three-title{
@@ -178,7 +185,7 @@ img{
     text-transform: capitalize;
     text-align: center;
     color:#2e2f42;
-    
+    margin-bottom: 72px;
 }
 
 .section-three-list{
@@ -189,6 +196,10 @@ img{
 
 .section-three-list-item{
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
 }
 
 .section-three-list-title-name{
@@ -197,6 +208,7 @@ img{
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-top: 32px;
 }
 
 .section-three-text{
@@ -204,6 +216,7 @@ img{
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 32px;
 }
 
 .sectoin-potfolio-title{
