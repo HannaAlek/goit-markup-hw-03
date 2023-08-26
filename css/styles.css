@@ -219,6 +219,10 @@ img{
     margin-bottom: 32px;
 }
 
+.portfolio-container{
+    padding: 96px 15px;
+}
+
 .sectoin-potfolio-title{
     font-size: 36px;
     line-height: 1.11; /* 111.111% */
@@ -226,10 +230,15 @@ img{
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .sectoin-potfolio-list{
     list-style-type: none;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    
 }
 
 .sectoin-potfolio-title-name{
@@ -238,6 +247,8 @@ img{
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-top: 32px;
+    padding:0 16px;
 }
 
 .sectoin-potfolio-text{
@@ -245,10 +256,17 @@ img{
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 32px;
+    padding:0 16px;
 }
 
 .page-footer{
     background-color: #2E2F42;
+}
+
+.footer-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .page-footer-logo-link{
@@ -260,6 +278,8 @@ img{
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    display: flex;
+    margin-bottom: 18px;
 }
 
 .page-footer-logo-span{
@@ -271,4 +291,5 @@ img{
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
